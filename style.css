@@ -1,6 +1,7 @@
 
 body {
   width: 100%;
+  font-family: 'Marmelad', sans-serif;
 }
 
 header {
@@ -8,6 +9,7 @@ header {
   height: 350px;
   background-image: url("images/bed-stuy.png");
   text-align: center;
+  box-shadow: 0px 2px 2px rgb(100,100,100);
 }
 
 h1 {
@@ -56,6 +58,8 @@ header h2 {
   width: 90px;
   text-align: center;
   cursor: pointer;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 }
 
 .tab:hover {
